@@ -176,7 +176,7 @@ function checkForWinner() {
   for (let y = 0; y < rows; y++) {
     for (let x = 0; x < cols; x++) {
       let cell = getCell(x, y);
-      if (cell !== 0 && cell === player) {
+      if (cell !== 0) {
         let horizontalCount = checkHorizontal(x, y, player);
         let verticalCount = checkVertical(x, y, player);
         let acrossCountPos = checkAcrossPos(x, y, player);
