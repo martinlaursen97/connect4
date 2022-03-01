@@ -1,0 +1,58 @@
+.button {
+  width: 90px;
+  height: 540px;
+  float: left;
+}
+
+.button:hover {
+  background-color: rgba(171, 171, 171, 0.4);
+  cursor: pointer;
+}
+
+#container {
+  position: relative;
+  background-color: white;
+  width: 630px;
+  height: 540px;
+}
+
+#button-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+#score-pillar {
+  margin-top: 5%;
+  position: relative;
+  height: 50px;
+  width: 630px;
+}
+
+.score-actual {
+  height: 50px;
+  width: 50px;
+  float: right;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 5px;
+
+}
+
+#score-wrapper {
+  width: 100px;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+body {
+  background-color: #dffffe;
+}

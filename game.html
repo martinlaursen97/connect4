@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<btn id="draw"></btn>
+
+<div id="score-pillar" class="center">
+  <div id="score-wrapper" class="center">
+    <div class="score-actual">
+      <h1 id="p2" style="color: blue">0</h1>
+    </div>
+
+    <div class="score-actual">
+      <h1 id="p1" style="color: red">0</h1>
+    </div>
+  </div>
+</div>
+
+
+<div id="container" class="center">
+  <div id="button-wrapper">
+    <btn class="button 1" onclick="choose(0)"></btn>
+    <btn class="button 2" onclick="choose(1)"></btn>
+    <btn class="button 3" onclick="choose(2)"></btn>
+    <btn class="button 4" onclick="choose(3)"></btn>
+    <btn class="button 5" onclick="choose(4)"></btn>
+    <btn class="button 6" onclick="choose(5)"></btn>
+    <btn class="button 7" onclick="choose(6)"></btn>
+  </div>
+  <canvas id="canvas" width=630 height=540></canvas>
+</div>
+
+</body>
+<script src="js/connect4.js"></script>
+</html>
